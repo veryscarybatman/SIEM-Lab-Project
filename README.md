@@ -14,11 +14,9 @@ we will be using Ubuntu in a VirtualBox VM.
 
 Deploy indexer/storage, search/query UI, and log forwarding/collector components (agent/forwarder endpoints).
 
-# Configure data ingestion:
+# Configure 2 VMs. One for the SIEM, and one that will function as the attack vector. 
 
-Install/configure lightweight log forwarders or use syslog/Windows Event Forwarding for sample hosts.
-
-Define parsing/ingest pipelines (e.g., ECS/Elastic ingest pipelines or Splunk sourcetypes).
+We will have VirtualBox installed so it can host both VMs. Download 2 VMS. This case will use Ubuntu for the SIEM and Kali for the attack vector. 
 
 # Normalize and enrich:
 
